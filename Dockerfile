@@ -1,4 +1,4 @@
-FROM python:3.6-stretch
+FROM python:3.8-buster
 MAINTAINER 5 Health Inc <hello@botmd.io>
 
 RUN apt update && apt install -y openssl libssl-dev xsltproc && \
