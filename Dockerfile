@@ -1,5 +1,5 @@
 FROM python:3.6-stretch
-MAINTAINER Yanchuan Sim <yanchuan@outlook.com>
+MAINTAINER 5 Health Inc <hello@botmd.io>
 
 RUN apt update && apt install -y openssl libssl-dev xsltproc && \
     git clone https://github.com/AGWA/git-crypt && \
